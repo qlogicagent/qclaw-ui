@@ -1,0 +1,20 @@
+{
+  "name": "@qclaw-ui/docs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@qclaw-ui/protocol": "workspace:*",
+    "@qclaw-ui/react": "workspace:*",
+    "@qclaw-ui/theme-openclaw": "workspace:*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

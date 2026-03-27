@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@qclaw-ui/protocol": ["../protocol/src/index.ts"],
+      "@qclaw-ui/adapter-openclaw": ["../adapter-openclaw/src/index.ts"]
+    }
+  },
+  "include": ["src"]
+}
