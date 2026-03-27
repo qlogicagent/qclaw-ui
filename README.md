@@ -19,6 +19,12 @@
 - `apps/playground`：本地联调入口
 - `apps/docs`：文档演示入口
 
+## specs and agent rules
+
+- `AGENTS.md`：仓库级 agentic coding 规则与变更约束
+- `.github/copilot-instructions.md`：Copilot 工作指令
+- `docs/specs/`：协议、RFC、仓库脚手架、openclaw 最小接入路线
+
 ## 本地启动
 
 1. 进入 [qclaw-ui](qclaw-ui)
